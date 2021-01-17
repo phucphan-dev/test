@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23b579d7.chunk.css",
+    "main.js": "/static/js/main.145ac94f.chunk.js",
+    "main.js.map": "/static/js/main.145ac94f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a9f40f08.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a9f40f08.js.map",
+    "static/css/2.e291ff50.chunk.css": "/static/css/2.e291ff50.chunk.css",
+    "static/js/2.511882fd.chunk.js": "/static/js/2.511882fd.chunk.js",
+    "static/js/2.511882fd.chunk.js.map": "/static/js/2.511882fd.chunk.js.map",
+    "static/js/3.6205a950.chunk.js": "/static/js/3.6205a950.chunk.js",
+    "static/js/3.6205a950.chunk.js.map": "/static/js/3.6205a950.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.e291ff50.chunk.css.map": "/static/css/2.e291ff50.chunk.css.map",
+    "static/css/main.23b579d7.chunk.css.map": "/static/css/main.23b579d7.chunk.css.map",
+    "static/js/2.511882fd.chunk.js.LICENSE.txt": "/static/js/2.511882fd.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/ic-twitter.2994f19b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9f40f08.js",
+    "static/css/2.e291ff50.chunk.css",
+    "static/js/2.511882fd.chunk.js",
+    "static/css/main.23b579d7.chunk.css",
+    "static/js/main.145ac94f.chunk.js"
+  ]
+}
