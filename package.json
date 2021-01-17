@@ -1,5 +1,5 @@
 {
-  "name": "corereactjs",
+  "name": "demo-blitz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -31,7 +31,7 @@
     "gen:page": "hygen page new --name pages",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "homepage": "https://PhucPhan-Dev.github.io/DemoBlitz",
+    "homepage": "https://PhucPhan-Dev.github.io/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
