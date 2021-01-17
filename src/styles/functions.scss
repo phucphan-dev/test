@@ -1,0 +1,7 @@
+@function rem($pixel) {
+  @if not $pixel {
+    @error "Missing argument $pixel";
+  }
+
+  @return ($pixel/16)+rem;
+}

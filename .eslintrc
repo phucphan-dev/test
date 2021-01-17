@@ -1,0 +1,98 @@
+{
+  "extends": ["eslint:recommended", "airbnb"],
+  "overrides": [
+    {
+      "files": "*.{ts,tsx}",
+      "extends": ["react-app", "airbnb", "plugin:import/typescript"],
+      "settings": {
+        "import/resolver": {
+          "node": {
+            "paths": ["src"]
+          }
+        }
+      },
+      "rules": {
+        "react/jsx-filename-extension": [
+          2,
+          {
+            "extensions": [".tsx"]
+          }
+        ],
+        "import/extensions": [
+          "error",
+          "always",
+          {
+            "js": "never",
+            "jsx": "never",
+            "ts": "never",
+            "tsx": "never"
+          }
+        ],
+        "import/no-extraneous-dependencies": [
+          "error",
+          {
+            "devDependencies": [
+              "src/setupTests.ts",
+              "src/**/*.stories.tsx",
+              "src/**/*.test.tsx",
+              "src/**/*.test.ts"
+            ]
+          }
+        ],
+        "import/order": [
+          2,
+          {
+            "alphabetize": {
+              "order": "asc"
+            },
+            "newlines-between": "always"
+          }
+        ],
+        "react/prop-types": 0, // already validate using TS,
+        "no-use-before-define": 0,
+        "@typescript-eslint/no-use-before-define": "error",
+        // custom
+        "quotes": ["error", "double"],
+        "no-param-reassign": [
+          "error",
+          {
+            "props": true,
+            "ignorePropertyModificationsFor": [
+              "acc",
+              "accumulator",
+              "e",
+              "ctx",
+              "context",
+              "staticContext",
+              "$state",
+              "$config"
+            ]
+          }
+        ],
+        "@typescript-eslint/no-unused-vars": ["error"],
+        "react/button-has-type": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/no-noninteractive-element-interactions": "off",
+        "jsx-a11y/control-has-associated-label": "off"
+      }
+    }
+  ],
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": ["scripts/*.js", "src/setupProxy.js"]
+      }
+    ],
+    "import/order": [
+      "error",
+      {
+        "alphabetize": {
+          "order": "asc"
+        },
+        "newlines-between": "always"
+      }
+    ]
+  }
+}

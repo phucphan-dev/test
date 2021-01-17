@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/samples/RoundedButton With Some Emoji 1`] = `
+<div>
+  <button
+    className="RoundedButton"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "papayawhip",
+      }
+    }
+    type="button"
+  >
+    <span
+      aria-label="so cool"
+      role="img"
+    >
+      😀 😎 👍 💯
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Components/samples/RoundedButton With Text 1`] = `
+<div>
+  <button
+    className="RoundedButton"
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "hotpink",
+      }
+    }
+    type="button"
+  >
+    Hello Button
+  </button>
+</div>
+`;

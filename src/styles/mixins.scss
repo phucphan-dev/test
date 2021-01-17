@@ -1,0 +1,17 @@
+@mixin text-overflow($number: 2) {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: ($number);
+}
+
+@mixin aspectRatio($width: 1, $height: 1) {
+  position: relative;
+
+  &:before {
+    display: block;
+    padding-bottom: ($height / $width) * 100%;
+    content: '';
+  }
+}

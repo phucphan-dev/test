@@ -1,0 +1,24 @@
+.a-input {
+  height: rem(44);
+  background: $darkJungleGreen;
+  backdrop-filter: blur(20px);
+  border-radius: rem(6);
+  padding-left: rem(12);
+  padding-right: rem(12);
+  display: flex;
+  align-items: center;
+  input {
+    font-family: $fontCabin;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: rem(44);
+    font-size: rem(13);
+    color: $uCLABlue;
+    text-shadow: -1px 0px 6px $richBlack091;
+    margin-left: 8px;
+    &:focus {
+      outline: none;
+    }
+  }
+}

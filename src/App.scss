@@ -1,0 +1,28 @@
+/* Common */
+@import 'styles/common.scss';
+/* Common */
+
+/* Library */
+@import '~bootstrap/dist/css/bootstrap-grid.min.css';
+/* Library */
+
+/* Components */
+@import 'components/atoms/Button/index.scss';
+@import 'components/atoms/Icon/index.scss';
+@import 'components/atoms/Input/index.scss';
+@import 'components/atoms/Social/index.scss';
+@import 'components/samples/RoundedButton/index.scss';
+@import 'components/templates/ModalLogin/index.scss';
+/* Components */
+.App {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: rem(578);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: rem(16);
+  padding-right: rem(16);
+}

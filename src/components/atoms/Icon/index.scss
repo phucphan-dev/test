@@ -1,0 +1,45 @@
+@mixin iconImage($url: '', $width: 24, $height: 24) {
+  width: rem($width);
+  height: rem($height);
+  background-image: url($url);
+}
+
+.a-icon {
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  &-google {
+    @include iconImage('~assets/icons/ic-google.svg');
+  }
+
+  &-facebook {
+    @include iconImage('~assets/icons/ic-facebook.svg');
+  }
+
+  &-twitter {
+    @include iconImage('~assets/icons/ic-twitter.svg');
+  }
+
+  &-telegram {
+    @include iconImage('~assets/icons/ic-telegram.svg');
+  }
+
+  &-phoneSocial {
+    @include iconImage('~assets/icons/ic-phoneSocial.svg');
+  }
+  &-mail {
+    @include iconImage('~assets/icons/ic-mail.svg');
+  }
+  &-loginHead {
+    @include iconImage('~assets/icons/ic-loginHead.svg');
+  }
+  &-close {
+    @include iconImage('~assets/icons/ic-close.svg');
+  }
+  &-password {
+    @include iconImage('~assets/icons/ic-password.svg');
+  }
+}
